@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dokku": {
-      "predeploy": "./hooks/predeploy"
+      "predeploy": "/app/hooks/predeploy"
     },
-    "postdeploy": "./hooks/postdeploy"
+    "postdeploy": "/app/hooks/postdeploy"
   }
 }

@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-echo $APP && echo $(dokku config:get --global DOKKU_MULTITENANT_UPSTREAM_IP)
+echo This is postdeploy script

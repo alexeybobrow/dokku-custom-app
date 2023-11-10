@@ -4,7 +4,7 @@
       "quantity": 1
     },
     "scripts": {
-      "postdeploy": "./DOKKU_HOOKS"
+      "postdeploy": "echo $APP && dokku config:get --global DOKKU_MULTITENANT_UPSTREAM_IP"
     }
   }
 }

@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "dokku": {
       "predeploy": "echo This is predeploy script && echo $APP",
       "postdeploy": "echo $APP && dokku config:get --global DOKKU_MULTITENANT_UPSTREAM_IP"
     }

@@ -2,11 +2,11 @@
   "formation": {
     "worker": {
       "quantity": 2
-    },
-    "scripts": {
-      "dokku": {
-        "postdeploy": "echo $APP && dokku config:get --global DOKKU_MULTITENANT_UPSTREAM_IP"
-      }
+    }
+  },
+  "scripts": {
+    "dokku": {
+      "postdeploy": "echo $APP && dokku config:get --global DOKKU_MULTITENANT_UPSTREAM_IP"
     }
   }
 }

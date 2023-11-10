@@ -1,7 +1,7 @@
 {
   "formation": {
     "worker": {
-      "quantity": 1
+      "quantity": 2
     },
     "scripts": {
       "dokku": {

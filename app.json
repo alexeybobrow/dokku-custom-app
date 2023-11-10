@@ -4,7 +4,7 @@
       "quantity": 1
     },
     "scripts": {
-        "postdeploy": "echo This is postdeploy script"
+      "postdeploy": "./DOKKU_HOOKS"
     }
   }
 }

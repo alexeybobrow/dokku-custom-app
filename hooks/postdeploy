@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
 echo This is postdeploy script
-dokku --version

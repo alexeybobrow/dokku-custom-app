@@ -4,9 +4,7 @@
       "quantity": 1
     },
     "scripts": {
-      "dokku": {
         "postdeploy": "echo This is postdeploy script"
-      }
     }
   }
 }

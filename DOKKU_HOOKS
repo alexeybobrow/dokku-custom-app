@@ -11,6 +11,7 @@ app_hooks_pre_deploy() {
   if [[ -n "$UPSTREAM_IP" && -n "$UPSTREAM_IP" ]]; then
     echo "$UPSTREAM_IP" > "$DOKKU_ROOT/$APP/IP.web.1"
     echo "$UPSTREAM_PORT" > "$DOKKU_ROOT/$APP/PORT.web.1"
+    cat "$DOKKU_ROOT/$APP/IP.web.1"
   else
     rm -f "$DOKKU_ROOT/$APP/IP.web.1"
     rm -f "$DOKKU_ROOT/$APP/PORT.web.1"

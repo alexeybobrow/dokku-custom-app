@@ -4,6 +4,6 @@
       "predeploy": "/app/hooks/predeploy",
       "postdeploy": "/app/hooks/postdeploy"
     },
-    "postdeploy": "/app/hooks/postdeploy"
+    "postdeploy": "/app/hooks/postdeploy1"
   }
 }

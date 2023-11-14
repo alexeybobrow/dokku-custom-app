@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-echo This is postdeploy1 script
-docker --version
-dokku --version

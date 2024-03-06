@@ -180,6 +180,6 @@ server {
 {{ if $.DOKKU_APP_WEB_LISTENERS }}
 {{ range $upstream_port := $.PROXY_UPSTREAM_PORTS | split " " }}
 upstream {{ $.APP }}-{{ $upstream_port }} {
-  server 127.0.0.1:5000;
+  server 127.0.0.1:9200;
 }
 {{ end }}{{ end }}
